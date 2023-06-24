@@ -1,0 +1,143 @@
+/* Navbar styling */
+
+.navBar {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 8px 16px; */
+    border-bottom: 1px solid lightgray;
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+a:hover {
+    color: #25c2A0;
+    font-weight: 600;
+}
+
+a.search:hover {
+    border: 1px black solid;
+    border-radius: 10%;
+    margin: 3px;
+    color: white;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+div.nav-left img {
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+div.nav-right img {
+    height: 32px;
+    width: 32px;
+    padding: 5px;
+}
+
+/* Header Styling */
+.header {
+    height: 380px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.header-left img{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+}
+
+div.header-right {
+    margin: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.header-right p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.button-left {
+    background-color: #25c2A0;
+    color: white;
+    height: 40px;
+    width: 160px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button-left:hover {
+    background-color: #22ba4a;
+}
+
+.button-right {
+    background-color: #d3d9e3;
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.button-right:hover {
+    background-color: #c2c8d1;
+}
+
+/* Features */
+.features {
+    height: 380px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 380px;
+    align-content: center;
+    align-items: center;
+}
+div.feature h1 {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.feature p {
+    margin: 10px;
+    color: black;
+    display: flex;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+div.feature img {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
